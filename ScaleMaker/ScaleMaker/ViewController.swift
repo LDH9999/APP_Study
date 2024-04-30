@@ -22,7 +22,6 @@ class ViewController: UIViewController, UITextFieldDelegate {
     @IBOutlet weak var titleLabel: UILabel!
     @IBOutlet weak var titleInputTextfield: UITextField!
     var playButtonPressCount = 0
-    let repeatCount = 2
     private var player: AVAudioPlayer?
     @IBOutlet weak var slider: UISlider!
     var dispatchWorkItem: [DispatchWorkItem] = []
@@ -147,15 +146,11 @@ class ViewController: UIViewController, UITextFieldDelegate {
         
         do {
             player = try AVAudioPlayer(contentsOf: url, fileTypeHint: AVFileType.mp3.rawValue)
-            player?.numberOfLoops = -1
             player?.play()
         } catch let error {
             print(error.localizedDescription)
         }
         
-        DispatchQueue.main.asyncAfter(deadline: .now() + 0.6) {
-            self.player?.stop()
-        }
     }
     
 }
