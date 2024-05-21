@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "9640BB9F-4F90-464C-9AFB-72B22F22D664"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "42AA0D11-4A09-434B-857F-6D1873CC98A9"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "StudyDiary/TableViewCell.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "17"
+            endingLineNumber = "17"
+            landmarkName = "awakeFromNib()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "42AA0D11-4A09-434B-857F-6D1873CC98A9 - 5bdbf318ed895c41"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "StudyDiary.TableViewCell.awakeFromNib() -&gt; ()"
+                  moduleName = "StudyDiary"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/imdonghyeon/app_study_project/StudyDiary/StudyDiary/TableViewCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "17"
+                  endingLineNumber = "17"
+                  offsetFromSymbolStart = "24">
+               </Location>
+               <Location
+                  uuid = "42AA0D11-4A09-434B-857F-6D1873CC98A9 - 5bdbf318ed895c41"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "StudyDiary.TableViewCell.awakeFromNib() -&gt; ()"
+                  moduleName = "StudyDiary"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/imdonghyeon/app_study_project/StudyDiary/StudyDiary/TableViewCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "17"
+                  endingLineNumber = "17"
+                  offsetFromSymbolStart = "73">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

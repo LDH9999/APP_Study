@@ -7,23 +7,20 @@
 
 import UIKit
 
-class TabBarController: UITabBarController {
+class TabBarController: UITabBarController, UITabBarControllerDelegate {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        
+        self.delegate = self
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    func tabBarController(_ tabBarController: UITabBarController, didSelect viewController: UIViewController) {
+            // 선택된 탭바 아이템의 인덱스 구하기
+            if let selectedIndex = tabBarController.viewControllers?.firstIndex(of: viewController) {
+                if selectedIndex == 1 {
+                    
+                }
+        }
     }
-    */
-
 }

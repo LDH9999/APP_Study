@@ -1,0 +1,6 @@
+framework module Pods_Anabada_Board {
+  umbrella header "Pods-Anabada Board-umbrella.h"
+
+  export *
+  module * { export * }
+}
